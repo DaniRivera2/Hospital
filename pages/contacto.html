@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2 style="text-align: center; color: rgb(51, 51, 146);">Vida Salvaje</h2>
+        <p>BIenvenidos a la vida salvaje</p>
+    </header>
+    <hr>
+    <nav>
+        <a href="http://127.0.0.1:5500/index.html">Home</a>
+        <a href="/pages/contacto.html" target="_blank">Contacto</a>
+    </nav>
+    <hr>
+    <!-- Formulario de resgistro-----> 
+     <form action="#">
+        <label for="Nombre">Ingrese su Nombre</label>
+        <br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Esriba su Nombre" size="15" required>
+        <br><br>
+         <label for="Email">Coloque su Email</label>
+        <br>
+        <input type="email" id="Email" name="Email" placeholder="Esriba su Email" size="15" required>
+        <br><br>
+         <label for="Contraseña">Coloque su Contraseña</label>
+        <br>
+        <input type="password" id="Contraseña" name="Contraseña" placeholder="Esriba su Contraseña" size="15" required>
+        <br><br>
+         <label for="Fecha">Fecha de nacimiento</label>
+        <br>
+        <input type="date" id="Fecha" name="Fecha" required>
+        <br><br>
+         <label for="Carga">Cargas Familiares</label>
+        <br>
+        <input type="number" id="Carga" name="Carga" required>
+        <br><br>
+        <label for="Genero">Genero</label>
+        <br>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" name="Genero">
+        <br>
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="femenino" name="Genero">
+        <br>
+        <label for="otro">Otro</label>
+        <input type="radio" id="femenino" name="Genero">
+        <br><br>
+        <label for="Ciudad">Coloque su Ciudad</label>
+        <select name="Ciudad" id="Ciudad">
+            <option value="Seleccione" disabled selected>Seleccione</option>
+            <option value="Quito">Quito</option>
+            <option value="Cuenca">Cuenca</option>
+            <option value="Latacunga">Latacunga</option>
+            <option value="Ibarra">Ibarra</option>
+        </select>
+        <br><br>
+        <label for="Foto">Seleccione Foto</label>
+        <br>
+        <input type="file" id="Foto" name="Foto">
+        <br><br>
+        <label for="Comentarios">Deje sus Comentarios</label>
+        <br>
+        <textarea name="Comentarios" id="Comentarios" cols="50" rows="5" placeholder="Escriba su comentario"></textarea>
+        <!----!button= boton simple sin funcion----> 
+        <br><br>
+        <button type="submit">Registrar</button>
+        <input type="submit" value="Enviar">
+        <button type="reset">Limpiar</button>
+     </form>
+     
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h2 style="text-align: center; color: rgb(224, 54, 24);">Hospital Dulce Vida</h2>
+        <p>Bienvenido, por una vida mas sana </p>
+    </header>
+    <hr>
+    <nav>
+        <a href="http://127.0.0.1:5500/index.htm">Home</a>
+        <a href="https://centromedicovida.com.ec/" target="_blank">Pagina Oficial</a>
+        <a href="/pages/contacto.html" target="_blank">Formulario</a>
+    </nav>
+    <hr>
+    <hr>
+     <form action="#">
+        <label for="Nombres">Nombres</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Esriba sus Nombres" size="15" required>
+        <br><br>
+         <label for="Apellidos">Apellidos</label>
+        <input type="email" id="Email" name="Email" placeholder="Esriba sus apellidos" size="15" required>
+        <br><br>
+         <label for="Identificacion">Numero de Identificacion</label>
+        <input type="text" id="Identificacion" name="Identificacion" required>
+        <br><br>
+         <label for="fecha">Fecha de Nacimiento</label>
+        <input type="date" id="fecha" name="fecha" required>
+        <br><br>
+        <label for="Genero">Sexo</label>
+        <br>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" name="Genero">
+        <br>
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="femenino" name="Genero">
+        <br>
+        <label for="otro">Otro</label>
+        <input type="radio" id="femenino" name="Genero">
+        <br><br>
+        <label for="Telefono">Telefono</label>
+        <input type="text" id="Telefono" name="Telefono" required>
+        <br><br>
+        <label for="Correo">Correo Electronico</label>
+        <input type="email" id="Correo" name="Correo" required>
+        <br><br>
+        <label for="Direccion">Direccion</label>
+        <input type="text" id="Direccion" name="Direccion" required>
+        <br><br>
+        <label for="Name">Contacto de emergencia</label>
+        <input type="text" id="Name" name="name" required>
+        <br><br>
+        <label for="Telefono emergencia">Telefono de Emergencia</label>
+        <input type="text" id="telefono emergencia" name="telefono emergencia" required>
+        <br><br>
+        <label for="Motivo de consulta">Motivo de Consulta</label>
+        <br>
+        <textarea name="Motivo de consulta" id="Motivo de consulta" cols="50" rows="5" placeholder="Escriba su consulta"></textarea>
+        <br><br>
+        <label for="antecedentes medicos">Antecedentes Medicos</label>
+        <br>
+        <textarea name="antecedentes medicos" id="antecedentes medicos" cols="50" rows="5" placeholder="Escriba su consulta"></textarea>
+        <br><br>
+        <label for="Alergias">Alergias</label>
+        <select name="Ciudad" id="Ciudad">
+            <option value="Seleccione" disabled selected>Seleccione</option>
+            <option value="Ibuprofeno">Ibuprofeno</option>
+            <option value="Morfina">Morfina</option>
+            <option value="Glucosa">Glucosa</option>
+            <option value="Sodio">Ibarra</option>
+        </select>
+        <br><br>
+        <label for="Medicaentos">Medicamentos actuales</label>
+        <br>
+        <label for="Al dia">Al dia</label>
+        <input type="checkbox" id="Al dia" name="Al dia">
+        <label for="No al dia">No al dia</label>
+        <input type="checkbox" id="No al dia" name="No al dia">
+        <br><br>
+        <label for="Grupo">Grupo Sanguineo</label>
+        <br>
+        <label for="A+">A+</label>
+        <input type="radio" id="A+" name="A+" required>
+        <br>
+        <label for="O+">O+</label>
+        <input type="radio" id="O+" name="O+" required>
+        <br>
+        <label for="O-">O-</label>
+        <input type="radio" id="O-" name="O-" required>
+        <br><br>
+        <br>
+        <label for="#">Deje sus comentarios</label>
+        <br>
+        <textarea name="Comentarios" id="Comentarios" cols="50" rows="5" placeholder="Escriba su comentario"></textarea> 
+        <br><br>
+        <button type="submit">Registrar</button>
+        <input type="submit" value="Enviar">
+        <button type="reset">Limpiar</button>
+     </form>
+</body>
+</html>
